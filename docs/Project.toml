@@ -1,0 +1,12 @@
+[deps]
+AbstractAlgebra = "c3fe647b-3220-5bb0-a1ea-a7954cac585d"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+QuantumEnvelopingAlgebras = "94011b77-6880-417d-82de-af5e8b743f9c"
+
+[sources]
+QuantumEnvelopingAlgebras = {path = ".."}
+
+[compat]
+AbstractAlgebra = "0.50"
+Documenter = "1"
+QuantumEnvelopingAlgebras = "0.1"
