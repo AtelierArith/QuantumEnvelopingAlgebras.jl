@@ -73,7 +73,7 @@ Pkg.test()
 julia --project=. benchmark/benchmarks.jl
 ```
 
-数学的規約と今後の範囲は [仕様書](QuantumEnvelopingAlgebras-spec.md) を参照してください。
+数学的規約と今後の範囲は [仕様書](docs/agents/QuantumEnvelopingAlgebras-spec.md) を参照してください。
 
 ## 開発
 
