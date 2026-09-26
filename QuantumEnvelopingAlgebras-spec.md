@@ -580,7 +580,6 @@ KL\to1,\quad LK\to1.
   https://gap-packages.github.io/quagroup/doc/chap3_mj.html
 - [S14] Free Software Foundation: GNU General Public License, version 3。
   https://www.gnu.org/licenses/gpl-3.0.html
-  https://opensource.org/license/mit
 
 ## 数学的規約
 
