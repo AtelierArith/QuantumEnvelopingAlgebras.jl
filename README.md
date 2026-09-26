@@ -81,4 +81,4 @@ julia --project=. benchmark/benchmarks.jl
 
 ## License
 
-新規実装は MIT License です。AbstractAlgebra.jl は別のライセンスで配布されます。
+このパッケージは [GNU General Public License v3.0](LICENSE)（GPL-3.0）の下で配布されます。AbstractAlgebra.jl は別のライセンス（個別ソースは BSD-2-Clause を含む）で配布されます。

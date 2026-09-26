@@ -4,7 +4,7 @@
 - 作成日: 2026-09-25
 - 状態: 設計提案。実装状況は `README.md` と `src/` を参照。
 - 仮称: `QuantumEnvelopingAlgebras.jl`。General registry の名称重複確認は未実施。
-- 新規に作成するソースコードのライセンス方針: MIT。
+- 新規に作成するソースコードのライセンス方針: GPL-3.0。
 - 最初の計算対象: Drinfeld–Jimbo 型の量子包絡代数 `U_q(sl_2)`。
 - 文中の `[S01]` 等の出典は `REFERENCES.md` を参照。
 
@@ -32,7 +32,7 @@ AbstractAlgebra.jl を係数体と代数インターフェースの基盤に採�
 
 OSCAR は PBW 代数、イデアル、PBW 代数の商である GR 代数を提供する。汎用イデアル計算を目的にする場合には有力である。`pbw_algebra` の基底条件チェックも存在する。[S08, S09]
 
-一方、このプロジェクトでは直接依存にしない。理由は、独自の MIT コアを小さく保つことと、最初の対象である `U_q(sl_2)` の正規形を直接実装できるためである。OSCAR の `.jl` コードを MIT 本体へ転用しない。OSCAR は GPL-3.0-or-later である。[S10]
+一方、このプロジェクトでは直接依存にしない。理由は、コアを小さく保つことと、最初の対象である `U_q(sl_2)` の正規形を直接実装できるためである。OSCAR の `.jl` コードは本体へ転用しない。OSCAR は GPL-3.0-or-later、本パッケージは GPL-3.0 である。[S10]
 
 `K^{-1}` は通常の非負指数の PBW 変数と同じではない。OSCAR 側でモデル化するなら、逆元用変数と逆元関係を入れた商などを別途検討する。本仕様は動作確認済みの OSCAR コンストラクタを提供するものではない。
 
@@ -489,7 +489,7 @@ PrecompileTools を導入する場合は直接依存として宣言する。ま�
 
 ## 14. ライセンス方針
 
-新規実装を MIT とし、依存物を MIT へ再ライセンスしたと誤解させない。AbstractAlgebra の個別 `.jl` ソースは BSD-2-Clause であり、「AbstractAlgebra は MIT」と記載しない。[S01]
+新規実装を GPL-3.0 とし、依存物を GPL-3.0 へ再ライセンスしたと誤解させない。AbstractAlgebra の個別 `.jl` ソースは BSD-2-Clause であり、「AbstractAlgebra は GPL」と記載しない。[S01]
 
 Julia 実行環境や依存ライブラリを同梱する配布物は、ソースパッケージ単体とは別にライセンスを確認する。AbstractAlgebra の LICENSE 自体も Julia 同梱ライブラリの扱いと個別ソースの扱いを分けている。[S01]
 
@@ -578,7 +578,8 @@ KL\to1,\quad LK\to1.
 - [S11] QuaGroup 公式パッケージページおよび manual。GPL-2.0-or-later、量子包絡代数、Hopf 構造、加群。
   https://gap-packages.github.io/quagroup/
   https://gap-packages.github.io/quagroup/doc/chap3_mj.html
-- [S14] Open Source Initiative: MIT License。
+- [S14] Free Software Foundation: GNU General Public License, version 3。
+  https://www.gnu.org/licenses/gpl-3.0.html
   https://opensource.org/license/mit
 
 ## 数学的規約
